@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, browserHistory} from 'react-router'
+import { Router, Route, browserHistory, IndexRoute} from 'react-router'
 import Root from './App';
 import {Home} from './home'
 import {User} from './user'
@@ -41,8 +41,9 @@ class WrappedResult extends React.Component{
 class App extends React.Component{
     render(){
         return(
-            <Router history={browserHistory}>
-                <Route path={"/"} component={Root}>
+        <Router history={browserHistory}>
+            <Route path={"/"} component={Root}>
+                    <IndexRoute component={WrappedResult}/>
                     <Route path={"user"} component={User}/>
                     <Route path={"home"} component={WrappedResult}/>
                 </Route>
