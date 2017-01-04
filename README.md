@@ -23,3 +23,4 @@ Provide a city name to the search box and hit "Get Forecast", it jumps to the pa
   * Javascript
   * Bootstrap
   * Used Weather API, http://api.openweathermap.org, to get the forecast informtion of the City
+  * Create-react-app to boostrap building the react app
