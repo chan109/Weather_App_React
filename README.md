@@ -1,6 +1,6 @@
 # Weather_App_React
 
-This is an simply web-application to search a particular city weather for the next five days.
+This is a simply web-application to search a particular city weather for the next five days.
 
 # Prerequisite
  Make sure have npm installed
